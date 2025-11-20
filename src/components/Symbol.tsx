@@ -64,34 +64,33 @@ export const Symbol = ({ locale }: SymbolProps) => {
           </p>
         </div>
 
-        {/* Horizontal scroll on mobile, grid on desktop */}
+        {/* Горизонтальный скролл на мобиле, сетка на десктопе */}
         <div className="overflow-x-auto lg:overflow-visible pb-6">
           <div className="flex lg:grid lg:grid-cols-2 gap-6 lg:gap-8 min-w-max lg:min-w-0">
             {slides.map((slide, index) => (
-              <div 
+              <article
                 key={index}
-                className="relative w-[85vw] lg:w-auto aspect-[4/3] rounded-xl overflow-hidden group cursor-pointer flex-shrink-0"
-                style={{
-                  backgroundImage: `url(${slide.image})`,
-                  backgroundSize: 'contain',
-                  backgroundPosition: 'center',
-                  backgroundRepeat: 'no-repeat',
-                  backgroundColor: 'hsl(var(--background))'
-                }}
+                className="w-[85vw] lg:w-auto flex-shrink-0 flex flex-col overflow-hidden rounded-2xl bg-card border border-border hover:border-primary/40 hover:shadow-xl hover:shadow-black/50 transition-transform duration-200 hover:-translate-y-1"
               >
-                {/* Gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
-                
-                {/* Content */}
-                <div className="absolute inset-0 p-6 flex flex-col justify-end">
-                  <h3 className="text-xl md:text-2xl font-bold text-foreground mb-2">
+                {/* Картинка */}
+                <div className="w-full h-56 md:h-64 bg-background overflow-hidden">
+                  <img
+                    src={slide.image}
+                    alt={slide.alt}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+
+                {/* Текст под картинкой */}
+                <div className="p-5 md:p-6 flex-1 flex flex-col">
+                  <h3 className="text-lg md:text-xl font-semibold text-foreground mb-2">
                     {slide.title}
                   </h3>
-                  <p className="text-sm md:text-base text-muted-foreground">
+                  <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
                     {slide.text}
                   </p>
                 </div>
-              </div>
+              </article>
             ))}
           </div>
         </div>

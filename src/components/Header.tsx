@@ -76,6 +76,14 @@ export const Header = ({ locale, setLocale }: HeaderProps) => {
             >
               {t.langEN}
             </Button>
+            <Button
+              variant={locale === "hy" ? "default" : "outline"}
+              size="sm"
+              onClick={() => setLocale("hy")}
+              className="min-w-[50px]"
+            >
+              {t.langHY}
+            </Button>
             
             {/* Mobile Menu Button */}
             <Button

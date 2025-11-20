@@ -1,4 +1,4 @@
-export type Locale = "ru" | "en";
+export type Locale = "ru" | "en" | "hy";
 
 export const translations = {
   ru: {
@@ -11,6 +11,7 @@ export const translations = {
     navContacts: "Контакты",
     langRU: "RU",
     langEN: "EN",
+    langHY: "HY",
 
     // Hero Section
     heroTitle: "ФК «Орлы Свободы» — Liberty Eagles FC",
@@ -139,6 +140,7 @@ export const translations = {
     navContacts: "Contacts",
     langRU: "RU",
     langEN: "EN",
+    langHY: "HY",
 
     // Hero Section
     heroTitle: "Liberty Eagles FC — Football Club in Yerevan",
@@ -256,5 +258,134 @@ export const translations = {
     // Footer
     footerText: "© Liberty Eagles FC — Yerevan, Armenia",
     footerInstagram: "We are on Instagram @libertyeagles.am",
+  },
+  hy: {
+    // Header & Navigation
+    navAbout: "Մասին",
+    navSymbol: "Խորհրդանիշ",
+    navTraining: "Փորձանքներ",
+    navCoaches: "Մարզիչներ",
+    navGallery: "Պատկերասրահ",
+    navContacts: "Կապ",
+    langRU: "RU",
+    langEN: "EN",
+    langHY: "HY",
+
+    // Hero Section
+    heroTitle: "Liberty Eagles FC — Ֆուտբոլային ակումբ Երևանում",
+    heroSubtitle: "Ֆուտբոլային մարզումներ Երևանում՝ մեծերի և երեխաների համար։ Տեխնիկա, ֆիթնես և իսկական թիմային ոգի։",
+    heroTagline: "Երևան • Մեծերի և երեխաների ֆուտբոլ • Ֆիթնես",
+    heroSmallEnglishTag: "Play with heart. Train like an Eagle.",
+    heroPrimaryButton: "Գրանցվել մարզման",
+    heroSecondaryButton: "Գրել մարզչին",
+    heroHelperText: "Թողեք հայտ կամ գրեք մեզ՝ մենք կօգնենք ընտրել համապատասխան խումբ և ժամանակացույց։",
+    heroImageAlt: "Liberty Eagles FC խաղացող՝ հարվածելով գնդակին երեկոյան մարզման ժամանակ։",
+
+    // About Section
+    aboutTitle: "Մեր մասին",
+    aboutP1: "Liberty Eagles FC-ը ֆուտբոլային ակումբ է Երևանում՝ նրանց համար, ովքեր ուզում են զարգանալ, շարժվել և վայելել խաղը։",
+    aboutP2: "Մենք կազմակերպում ենք մարզումներ մեծերի և երեխաների համար՝ ցանկացած մակարդակով։ Զարգացնում ենք տեխնիկան, դիմացկունությունը, խաղային մտածողությունն ու թիմային ոգին։",
+    aboutP3: "Մեր նպատակը ստեղծել միջավայր, որտեղ յուրաքանչյուրն իրեն պաշտպանված ու մոտիվացված է զգում՝ տեսնելով իրական առաջընթաց։",
+
+    // Symbol Section
+    symbolSectionTitle: "Մեր խորհրդանիշը",
+    symbolIntro: "Մեր խորհրդանիշը պատմում է ազատության, Հայաստանի ճանապարհի, նոր հողի նկատմամբ հարգանքի և ֆուտբոլի նկատմամբ սիրո պատմությունը։",
+    
+    symbolSlide1Title: "Մենք աճում ենք։ Մենք ուժեղանում ենք։",
+    symbolSlide1Text: "Ակումբը և թիմը զարգանում են, և խորհրդանիշը արտացոլում է այդ աճն ու ներքին ուժը։",
+    symbolSlide1Alt: "Liberty Eagles FC-ի բրենդային սլայդ աճի մասին։",
+    
+    symbolSlide2Title: "Մեր տունը՝ Հայաստան։",
+    symbolSlide2Text: "Մենք եկել ենք Ռուսաստանից, բայց այսօր մեր տունը Հայաստանն է։ Քառաթև նշանը հիշեցնում է Հայաստանի չորս թագավորությունները և մեր կապը այս հողի հետ։",
+    symbolSlide2Alt: "Liberty Eagles FC սլայդը Հայաստանի և քառաթև խորհրդանիշի մասին։",
+    
+    symbolSlide3Title: "Թևերը՝ ուժի և շարժման խորհրդանիշ։",
+    symbolSlide3Text: "Թևերը միավորվում են մի ամբողջության մեջ։ Դրանց ձևը հիշեցնում է մկան՝ ուժի և շարժման խորհրդանիշ։",
+    symbolSlide3Alt: "Լոգոյի թևի հատված՝ Liberty Eagles FC բրենդավորում։",
+    
+    symbolSlide4Title: "Արծվի հայացքը՝ հաջողության մասին։",
+    symbolSlide4Text: "Մենք կենտրոնացել ենք նպատակի վրա։ Արծվի հայացքը դարձել է ավելի հաստատուն՝ ինչպես մեր մոտեցումը ֆուտբոլին։",
+    symbolSlide4Alt: "Արծվի գլուխը և հայացքը՝ Liberty Eagles FC սլայդ։",
+    
+    symbolSlide5Title: "Պատկերն ու հինգանկյունը։",
+    symbolSlide5Text: "Թևերի ներսում թաքնված է հինգանկյուն՝ հղում ֆուտբոլին։",
+    symbolSlide5Alt: "Liberty Eagles FC լոգոն՝ սև ֆոնով։",
+    
+    symbolSlide6Title: "Ազատություն։ Ուժ։ Մշակույթ։ Թիմ։",
+    symbolSlide6Text: "Նոր խորհրդանիշը նույն ազատությունն է, բայց՝ ավելի մեծ էներգիայով և իմաստով։",
+    symbolSlide6Alt: "Վերջնական Liberty Eagles FC սլայդը լոգով և արժեքներով։",
+
+    // Training Programs
+    trainingTitle: "Մարզումների ուղղություններ",
+    
+    trainingAdultTitle: "Ֆուտբոլ մեծերի համար",
+    trainingAdultShort: "Խմբային մարզումներ մեծերի համար՝ ցանկացած մակարդակով։ Զարգացնում ենք տեխնիկան, դիմացկունությունը և վստահությունը դաշտում։",
+    trainingAdultBullet1: "Տեխնիկական վարժություններ՝ փոխանցում, ընդունում, հարված",
+    trainingAdultBullet2: "Փոքր խաղեր 4×4, 5×5 և այլն",
+    trainingAdultBullet3: "Քարդիո և ֆիթնես",
+    trainingAdultBullet4: "Բարեկամական միջավայր և թիմային աջակցություն",
+    
+    trainingKidsTitle: "Մանկական ֆուտբոլ",
+    trainingKidsShort: "Անվտանգ ու հետաքրքիր մարզումներ երեխաների համար։ Զարգացնում ենք համադրումը, արագությունը և խաղի սերը։",
+    trainingKidsBullet1: "Խաղային վարժություններ",
+    trainingKidsBullet2: "Կոորդինացիայի վարժություններ",
+    trainingKidsBullet3: "Մինի խաղեր",
+    trainingKidsBullet4: "Աջակցող միջավայր",
+    
+    trainingFitnessTitle: "Ֆիթնես և ընդհանուր պատրաստվածություն",
+    trainingFitnessShort: "Մարզումներ նրանց համար, ովքեր ուզում են ուժեղանալ, ձևավորվել և լավ զգալ առօրյայում։",
+    trainingFitnessBullet1: "Ֆունկցիոնալ և ուժային վարժություններ",
+    trainingFitnessBullet2: "Դիմացկունության և շարժունակության զարգացում",
+    trainingFitnessBullet3: "Միջուկ, մեջք և ոտքեր",
+    trainingFitnessBullet4: "Հարմար մեծերի և պատանիների համար",
+
+    // Training Format
+    formatTitle: "Ինչպես են անցնում մարզումները",
+    formatBlock1Title: "Տաքացում և տեխնիկա",
+    formatBlock1Text: "Պատրաստում ենք մկաններն ու հոդերը, աշխատում ենք գնդակով և առանց գնդակի։",
+    formatBlock2Title: "Խաղային վարժություններ",
+    formatBlock2Text: "Փոքր խաղեր, որոշումների կայացում, թիմային աշխատանք։",
+    formatBlock3Title: "Թիմային խաղեր",
+    formatBlock3Text: "Մինի խաղեր 4×4, 5×5 կամ 7×7։",
+    formatScheduleNote: "Ժամանակացույցը համաձայնեցնում ենք անհատապես՝ ըստ մատչելիության։",
+
+    // Coaches
+    coachesTitle: "Մարզիչներ",
+    coach1Name: "Անուն Ազգանուն",
+    coach1Role: "Գլխավոր մարզիչ",
+    coach1Text: "Փորձառու մարզիչ՝ կենտրոնացած տեխնիկայի, մտածողության և կարգապահության վրա։",
+    coach2Name: "Անուն Ազգանուն",
+    coach2Role: "Ֆիթնես մարզիչ",
+    coach2Text: "Օգնում է զարգացնել ուժը, դիմացկունությունը և շարժունակությունը։",
+
+    // Gallery
+    galleryTitle: "Պատկերասրահ",
+    gallerySubtitle: "Մեր մարզումների և խաղերի մի քանի պահեր։",
+    galleryMoreText: "Ավելին՝ Instagram-ում @libertyeagles.am",
+    
+    galleryImage1Alt: "Liberty Eagles FC խաղացողներ մարզվում են երեկոյան դաշտում։",
+    galleryImage2Alt: "Liberty Eagles FC խաղացող՝ կատարելով ուժեղ հարված երեկոյան մարզման ժամանակ։",
+    galleryImage3Alt: "Խաղային պահ Liberty Eagles FC խաղացողների միջև մարզման ժամանակ։",
+    galleryImage4Alt: "Liberty Eagles FC թիմը լսում է մարզչի հրահանգները մարզման ժամանակ։",
+
+    // Contacts & Form
+    contactsTitle: "Գրանցվել մարզման",
+    contactsDescription: "Թողեք հայտ, և մենք կօգնենք ձեզ ընտրել համապատասխան խումբ և ժամանակացույց։",
+    contactsFormNameLabel: "Անուն",
+    contactsFormAgeLabel: "Տարիք",
+    contactsFormPhoneLabel: "Հեռախոս",
+    contactsFormMessengerLabel: "Messenger",
+    contactsFormMessageLabel: "Հաղորդագրություն",
+    contactsFormSubmit: "Ուղարկել",
+    contactsSuccess: "Շնորհակալություն։ Մենք շուտով կապ կհաստատենք։",
+    contactsBlockTitle: "Կապ",
+    contactsCity: "Երևան, Հայաստան",
+    contactsPhonePlaceholder: "+374 XX XXX XXX",
+    contactsInstagramButton: "Instagram",
+    contactsYouTubeButton: "YouTube",
+
+    // Footer
+    footerText: "© Liberty Eagles FC — Երևան, Հայաստան",
+    footerInstagram: "Instagram @libertyeagles.am",
   },
 };

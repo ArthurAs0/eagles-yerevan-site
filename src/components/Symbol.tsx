@@ -71,15 +71,16 @@ export const Symbol = ({ locale }: SymbolProps) => {
               <div 
                 key={index}
                 className="relative w-[85vw] lg:w-auto aspect-[4/3] rounded-xl overflow-hidden group cursor-pointer flex-shrink-0"
+                style={{
+                  backgroundImage: `url(${slide.image})`,
+                  backgroundSize: 'contain',
+                  backgroundPosition: 'center',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundColor: 'hsl(var(--background))'
+                }}
               >
-                <img 
-                  src={slide.image} 
-                  alt={slide.alt}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-                
                 {/* Gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
                 
                 {/* Content */}
                 <div className="absolute inset-0 p-6 flex flex-col justify-end">
